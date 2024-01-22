@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Chọn tất cả thẻ "p" là con của thẻ có class "parent" */
+.parent p {
+    color: green;
+}
+
+/* Chọn tất cả thẻ có class "children-1" là con của thẻ có class "parent" */
+.parent .children-1 {
+    color: red;
+}
+
+/* Them the co class "Children1" mau do */
+.children-1 {
+    color:red;
+}
