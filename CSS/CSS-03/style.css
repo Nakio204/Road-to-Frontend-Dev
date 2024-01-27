@@ -1,0 +1,17 @@
+:root {
+    --primary: #f05123;
+}
+
+.desc a {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.list strong {
+    color: var(--primary);
+}
+
+.copyright a {
+    color: var(--primary);
+    font-weight: 600;
+}
