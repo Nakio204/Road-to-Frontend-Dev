@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birth Date Selector</title>
+</head>
+<body>
+  <form>
+    <label for="birth_date">Birth Date:</label>
+    <br>
+    <select id="day" name="day">
+      <option value="">Day</option>
+      <?php for ($i = 1; $i <= 31; $i++): ?>
+        <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+      <?php endfor; ?>
+    </select>
+    <select id="month" name="month">
+      <option value="">Month</option>
+      <?php for ($i = 1; $i <= 12; $i++): ?>
+        <option value="<?php echo $i; ?>"><?php echo date('F', mktime(0, 0, 0, $i, 1)); ?></option>
+      <?php endfor; ?>
+    </select>
+    <select id="year" name="year">
+      <option value="">Year</option>
+      <?php for ($i = date('Y') - 100; $i <= date('Y'); $i++): ?>
+        <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+      <?php endfor; ?>
+    </select>
+  </form>
+</body>
+</html>
+
+<?php // Closing PHP tag ?>

@@ -1,0 +1,28 @@
+a {
+    font-variant: small-caps;
+    text-decoration-line: none;
+    color: blue;
+}
+
+a:hover {
+    color:green
+}
+
+#a6 {
+    color: red;
+}
+
+.album img {
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px blue;
+}
+
+.album button {
+    border: none;
+    background: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    box-shadow: inset 0px 0px 20px blue;
+}
