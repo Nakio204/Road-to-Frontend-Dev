@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+p.no {
+    border-style: double;
+    border-width: initial;
+}
+
+p.four {
+    border-style: dotted dashed solid double;
+}
+
+p.three {
+    border-style: dotted solid double;
+}
+
+p.two {
+    border-style: dotted double;
+}
+
+p.one {
+    border-color: red;
+    border-style: solid;
+}

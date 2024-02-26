@@ -1,0 +1,17 @@
+body {
+    background-image: url("/FRONTEND/HTML/CLASS/nakio.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+/*
+background	            Đặt tất cả các thuộc tính nền trong một khai báo
+background-attachment	Đặt xem hình nền được cố định hay cuộn với phần còn lại của trang
+background-clip	        Chỉ định vùng vẽ của nền
+background-color	    Đặt màu nền của một phần tử
+background-image	    Đặt hình nền cho một phần tử
+background-origin	    Chỉ định vị trí của các hình nền
+background-position	    Đặt vị trí bắt đầu của hình nền
+background-repeat	    Đặt cách lặp lại hình nền
+background-size	        Chỉ định kích thước của các hình nền
+ */
