@@ -1,0 +1,35 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.table-container table {
+  margin: 30px;
+}
+
+body {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  color: black;
+  text-decoration-line: none;
+  display: block;
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.list li {
+  border: 1px solid;
+}

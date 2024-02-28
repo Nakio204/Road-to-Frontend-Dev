@@ -1,0 +1,37 @@
+/* h2 {
+    background:#FF9966;
+    font-family:"Courier New", Courier, monospace;
+    font-size:16px;
+    border-bottom: solid;
+    width: 500px;
+}
+table,tr,td,th {
+    border-collapse: collapse;
+    border-color: #CC0000;
+    border:1px solid #990000;
+}
+th {
+    background:#FF6600;
+    color:#FFFFFF;
+} */
+
+table, tr, td, th{
+    border-collapse:separate;
+    border:1px inset #3300FF;
+    width:450px;
+    font-family:"Courier New", Courier, monospace;
+    font-size:12px;
+    }
+table tr th{
+    background:#660066;
+    color:#FFFFFF;
+    height:50px;
+    font-size:15px;
+}
+.canhgiua{
+    text-align:center;
+    background:#660066;
+    color:#FFFFFF;
+    width:10%;
+}
+    

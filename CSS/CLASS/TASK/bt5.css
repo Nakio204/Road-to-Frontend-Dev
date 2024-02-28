@@ -1,0 +1,15 @@
+body {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-left: 50px;
+}
+
+hr {
+    width: 150px;
+    float: left;
+    clear: both;
+}
+
+table {
+    width: 300px;
+}
