@@ -1,0 +1,153 @@
+/* Variable */
+:root {
+    --white-color: white;
+}
+
+/* Default */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Header main */
+.header {
+    height: 120px;
+    background-image: linear-gradient(#ee4d2d,#ff7337);
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.header__navbar-item {
+    margin: 0 8px;
+    position: relative;
+    min-height: 22px;
+}
+
+.header__navbar-item--qr:hover .header__qr {
+    display: block;
+}
+
+.header__navbar-item, 
+.header__navbar-item-link {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-family: quicksand;
+    color: var(--white-color);
+    text-decoration-line: none;
+    font-weight: 420;
+}
+
+.header__navbar-item--strong {
+    font-weight: 600;
+}
+
+.header__navbar-item--gach::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1px solid #fb9086;
+    height: 16px;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__navbar-item:hover, 
+.header__navbar-item-link:hover,
+.header__navbar-icon-link:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.header__navbar-icon-link {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.header__navbar-icon {
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+
+.header__navbar-fix {
+    cursor: text;
+    color: var(--white-color);
+}
+
+/* Header QR Code */
+.header__qr {
+    background-color: var(--white-color);
+    width: 170px;
+    position: absolute;
+    left: 0;
+    top: 126%;
+    padding: 7px;
+    border-radius: 3px;
+    display: none;
+    animation: fadeIn ease-in 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.header__qr::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    top: -10px;
+}
+
+.header__qr-img {
+    width: 100%;
+}
+
+.header__qr-apps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__qr-download--left,
+.header__qr-download--right {
+    height: 16.5px;
+}
+
+.header__qr-download--left {
+    margin-left: 11px;
+}
+
+.header__qr-download--right {
+    margin-right: 14px;
+}
