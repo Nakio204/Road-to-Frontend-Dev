@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1</title>
+    <script src="class1.js"></script>
+</head>
+<style>
+    #colorBox {
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+</style>
+<body>
+    <label>
+        <input type="radio" name="color" value="Red" onchange="displayColor(this.value)"> Red
+    </label>
+    <label>
+        <input type="radio" name="color" value="Green" onchange="displayColor(this.value)"> Green
+    </label>
+    <label>
+        <input type="radio" name="color" value="Blue" onchange="displayColor(this.value)"> Blue
+    </label>
+    
+    <div id="colorBox">
+        <p id="selectedColorText"></p>
+    </div>
+</body>
+</html>

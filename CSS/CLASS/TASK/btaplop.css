@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+#head{
+    width: 100%;
+    height: 400px;
+}
+
+.d1{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.d2{
+    position: absolute;
+    top:150px;
+    left:50px;
+}
+footer{
+    position: relative;
+}
+.anh2{
+    position: relative;
+    top: 200px;
+    left: 45%;
+}
+.icon{
+    position: absolute;
+}
+.formdk{
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: rgba(242, 101, 0, 0.901);
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius:40px;
+}
+.menu{
+width: 100%;
+height: 60px;
+background-color: rgb(242, 93, 0);
+position: absolute;
+top:400px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+
+a{
+text-decoration: none;
+color: white;
+list-style: none;
+margin: 0 10px;
+font-size: 1.2rem;
+}
+button{
+border: 0;
+font-size: 1.1rem;
+background-color:rgb(242, 93, 0); 
+color:white;
+margin: 10px;
+cursor: pointer;
+}
+article{
+    width: 75%;
+    height: 260px;
+    position: fixed;
+    bottom:0;
+    background-image: url(../img/images.jpg ) ;
+    background-repeat: repeat-x;
+}
+.anhogoc{
+    /* position: fixed; */
+    z-index: 2;
+}
