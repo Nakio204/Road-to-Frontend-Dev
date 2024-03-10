@@ -1,0 +1,44 @@
+body {
+    margin: 2rem;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: blue;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 15px;
+    color: white;
+}
+
+.submenu {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    display: none;
+}
+
+.submenu>li>a {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.submenu>li>a:hover {
+    color: rebeccapurple;
+}
