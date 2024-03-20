@@ -1,0 +1,23 @@
+.box {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.box1{
+    background-color: #333;
+    margin-left: 20px;
+}
+
+.box2{
+    background-color: orange;
+    margin: 0px 20px 20px 20px;
+}
+
+.box3{
+    background-color: firebrick;
+}
