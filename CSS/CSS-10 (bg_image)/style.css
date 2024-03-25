@@ -1,0 +1,9 @@
+html, body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(/FRONTEND/CSS/CLASS/chplay.png) center no-repeat / contain;
+}
