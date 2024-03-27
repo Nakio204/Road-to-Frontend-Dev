@@ -1,10 +1,13 @@
 body {
     font-size: 1.2rem;
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     position: relative;
+    margin-top: 60px;
 }
 
 .box {
@@ -31,4 +34,17 @@ span {
     height: 100px;
     justify-content: center;
     align-items: center;
+}
+
+ul {
+    height: 2000px;
+}
+
+.header {
+    left: 0;
+    right: 0;
+    height: 42px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
 }
